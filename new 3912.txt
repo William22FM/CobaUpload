@@ -1,0 +1,281 @@
+@Given("I go to Url1")
+public void i_go_to_url1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I clock text login")
+public void i_clock_text_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit2")
+public void i_click_button_submit2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("create account error1")
+public void create_account_error1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I input Email2")
+public void i_input_email2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit1")
+public void i_click_button_submit1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click gander1")
+public void i_click_gander1() {
+    // Write code here that turns the phrase above into concrete actions//*[@id="id_gender1"]
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input fist name1")
+public void i_input_fist_name1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input last name2")
+public void i_input_last_name2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click date1")
+public void i_click_date1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click month1")
+public void i_click_month1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click year1")
+public void i_click_year1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click News1")
+public void i_click_news1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click offers1")
+public void i_click_offers1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button Register1")
+public void i_click_button_register1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("create account error5")
+public void create_account_error5() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I input Email3")
+public void i_input_email3() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit4")
+public void i_click_button_submit4() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click gander")
+public void i_click_gander() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input fist name")
+public void i_input_fist_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input last name")
+public void i_input_last_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input Password1")
+public void i_input_password1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click date")
+public void i_click_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click month")
+public void i_click_month() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click year")
+public void i_click_year() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click News")
+public void i_click_news() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click offers")
+public void i_click_offers() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("I click button Register")
+public void i_click_button_register() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I go to Url2")
+public void i_go_to_url2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input Email5")
+public void i_input_email5() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input password3")
+public void i_input_password3() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit5")
+public void i_click_button_submit5() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("create account error4")
+public void create_account_error4() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I go to Url3")
+public void i_go_to_url3() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input Email8")
+public void i_input_email8() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("Input Password")
+public void input_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit6")
+public void i_click_button_submit6() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("create account error8")
+public void create_account_error8() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I input Email7")
+public void i_input_email7() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input password7")
+public void i_input_password7() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit7")
+public void i_click_button_submit7() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("create account error7")
+public void create_account_error7() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I input Email")
+public void i_input_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I input password")
+public void i_input_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("I click button submit")
+public void i_click_button_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("login done")
+public void login_done() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("I click user")
+public void i_click_user() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
