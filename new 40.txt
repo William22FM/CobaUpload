@@ -1,0 +1,67 @@
+
+'Send request for login'
+response = WS.sendRequest(findTestObject('API/Token/Post Token', [('url') : GlobalVariable.aut_url, ('tokenaut') : GlobalVariable.tokenaut]))
+
+def jsonSlurper = new JsonSlurper()
+
+def res = jsonSlurper.parseText(response.getResponseText())
+
+AutToken = res.access_token
+
+println(AutToken)
+GlobalVariable.tokenaut = AutToken
+
+'Send request with token'
+response = WS.sendRequest(findTestObject('API/Token/Post Token', [('url') : GlobalVariable.aut_url, ('tokenaut') : GlobalVariable.tokenaut]))
+
+response = WS.sendRequest(findTestObject('API/Token/Get Token', [('token') : res.access_token]))
+
+
+
+WS.sendRequest(findTestObject('Employee/Update Employee Detail', 
+[('tokenaut') : GlobalVariable.tokenaut, 
+('url') : GlobalVariable.url
+       , ('id') : GlobalVariable.idPin, 
+	   ('firstname') : GlobalVariable.firstName,
+	   ('middlename') : GlobalVariable.middleName
+            , ('lastname') : GlobalVariable.lastName,
+			('code') : GlobalVariable.code, 
+			('dob') : GlobalVariable.dob, 
+			('licensenumber') : GlobalVariable.licenseNumber
+            , ('expired') : GlobalVariable.licenseExpDate,
+			('marital') : GlobalVariable.marital, 
+			('gender') : GlobalVariable.gender
+            , ('otherid') : GlobalVariable.otherid, 
+			('nationality') : GlobalVariable.nationality]))
+			
+	
+W17714M!	
+			
+			
+			
+			package Test;
+
+import com.relevantcodes.extentreports.LogStatus;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import Object.Driver;
+import Object.*;
+
+public class Login extends Driver {
+
+    //Login with empty user and password
+
+    @Test
+    public void loginEmptyUserAndPass() throws InterruptedException {
+
+       // report= ExtentFactory.getInstance();
+       // test = report.startTest("Test case Login");
+        driver.get(Url.Login_URL);
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
+        login.clickBtnLogin();
+        Thread.sleep(1000);
+        Assert.assertTrue(driver.getPageSource().contains("Username cannot be empty"));
+    }
+}
